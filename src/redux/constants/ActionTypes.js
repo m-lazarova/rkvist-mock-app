@@ -1,0 +1,7 @@
+const ActionTypes =  {
+  ASSET_LIST_ERROR: 'ASSET_LIST_ERROR',
+  ASSET_LIST_SUCCESS: 'ASSET_LIST_SUCCESS',
+  ASSET_LIST_LOADING: 'ASSET_LIST_LOADING',
+}
+
+export default ActionTypes;
