@@ -5,10 +5,12 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/user-event": "^13.5.0",
+    "fetch-mock": "^9.11.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
@@ -38,6 +40,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^12.1.4",
+    "jest-watch-typeahead": "^0.6.5",
     "react-redux": "^7.2.6",
     "redux": "^4.1.2"
   }
