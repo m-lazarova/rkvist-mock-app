@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import AssetList from './components/AssetList';
+import AssetListItem from './components/AssetListItem';
+import MainNavigation from './components/layout/MainNavigation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <MainNavigation />
+        <Routes>
+          <Route exact path="/all-assets" element={<AssetList/>}/>
+          <Route path='/asset/:identity' exact element={<AssetListItem />} />
+        </Routes>
+      </Router> 
     </div>
   );
 }
