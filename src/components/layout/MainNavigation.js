@@ -5,7 +5,7 @@ const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <div>
-        <Link to='/'>RKVST</Link>
+        <Link to='/' onClick={window.location.reload}>RKVST</Link>
       </div>
       <nav>
         <ul>

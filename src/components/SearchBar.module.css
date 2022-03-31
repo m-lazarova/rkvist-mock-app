@@ -1,0 +1,37 @@
+.p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 25px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.search:hover, .search:focus {
+  border: 1px solid #171d1c;
+  background-color: white;
+}
+
+.button {
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+  margin: 10px;
+}
