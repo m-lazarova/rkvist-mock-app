@@ -1,6 +1,7 @@
 # RKVST - Mock basic app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Very basic functionality, only allows fetching all assets or by name. 
 
 ## Available Scripts
 
